@@ -3,7 +3,7 @@ layout: post
 title: Formatting the Code
 ---
 
-**Task**
+## Task ##
 
 After modernizing our code-base by removing all the `register`s and converting
 from K&R to ANSI declarations, the next thing to do before diving into the
@@ -36,7 +36,7 @@ sv.c:293:36: note: ...this statement, but the latter is misleadingly indented as
 
 Yeeeuuchh.
 
-**Fix**
+## Fix ##
 
 It took an awful lot of screwing around for me to get a combination of formatting tricks
 that worked well enough for me to apply them across the entire code-base. I'm still not
@@ -93,7 +93,7 @@ format-%: %
 	rm $*.temp.c
 ```
 
-**Results**
+## Results ##
 
 The output isn't quite as nice as if it had been hand-tuned, but it's a hell of a lot
 easier to read (for me, at least!) than the original source.

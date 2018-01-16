@@ -3,7 +3,7 @@ layout: post
 title: Removing legacy C constructs
 ---
 
-**Task**
+## Task ##
 
 Runit must have been written a pretty long time ago originally. Either
 that or the author was super old-school. All of the functions were defined
@@ -35,7 +35,7 @@ There's nothing syntactically wrong with K&R function declarations, but
 I think of them as a code-smell for code that hasn't been kept modern.
 Time to fix them.
 
-**Fix**
+## Fix ##
 
 Runit is a big enough code-base that it's not practical to go through
 it and change every function declaration by hand (especially without
@@ -67,7 +67,7 @@ refactor-%: %
 	rm $*.temp
 ```
 
-**Notes**
+## Notes ##
 
 It's interesting what people notice in a code base. A lot of programmers
 would look at upstream Runit's K&R declarations and be scared off. Friendly
