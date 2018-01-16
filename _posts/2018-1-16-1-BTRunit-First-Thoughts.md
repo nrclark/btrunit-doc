@@ -9,8 +9,8 @@ RUnit is the init system on a couple of small distros, and is much loved.
 There's even a version provided by Busybox.
 
 Downloading it is weird. Building it is weird. There are tarballs, but no
-accessible source repo. Also the build system is super weird, and not very
-configurable.
+accessible source repo. There are some compiler warnings that could be
+serious. Also the build system is super weird, and not very configurable.
 
 The ultimate goal of this project is to fix all compiler warnings,
 change the build system out for autotools, and fix any hard-coded paths.
